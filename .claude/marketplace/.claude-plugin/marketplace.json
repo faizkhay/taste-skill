@@ -1,0 +1,16 @@
+{
+  "name": "onetake",
+  "description": "Wraps feitangyuan/onetake, a standalone skill repo with no plugin manifest, so it installs as a Claude Code plugin.",
+  "owner": { "name": "feitangyuan", "url": "https://github.com/feitangyuan" },
+  "plugins": [
+    {
+      "name": "onetake",
+      "description": "Short product / skill motion videos built from a single HTML composition, rendered frame by frame. PolyForm Noncommercial 1.0.0: free for noncommercial use only.",
+      "source": { "source": "github", "repo": "feitangyuan/onetake" },
+      "homepage": "https://github.com/feitangyuan/onetake",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}
